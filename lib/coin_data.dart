@@ -39,7 +39,7 @@ class CoinData {
     for (String crypto in cryptoList) {
       http.Response response = await http.get(
         Uri.parse('$marketDataURL/$crypto/$currency'),
-        headers: {'X-CoinAPI-Key': 'DD891548-ED3F-44BA-A017-2DECEED18CE0'},
+        headers: {'X-CoinAPI-Key': 'your api key'},
       );
       print('$marketDataURL/$crypto/$currency');
       if (response.statusCode == 200) {
