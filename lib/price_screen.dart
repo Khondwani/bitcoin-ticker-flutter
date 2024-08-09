@@ -57,7 +57,6 @@ class _PriceScreenState extends State<PriceScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     getCurrencyRate();
   }
